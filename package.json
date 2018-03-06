@@ -1,0 +1,11 @@
+{
+  "name": "divcodesbox",
+  "version": "1.0.0",
+  "description": "A talk box to share tools and resources for diversity coders to diverse your code!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yen Prajapati",
+  "license": "ISC"
+}
