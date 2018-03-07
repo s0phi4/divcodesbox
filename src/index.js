@@ -1,1 +1,1 @@
-console.log("Diversify with Go");
+import App from "./app";
