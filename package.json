@@ -23,6 +23,7 @@
     "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^5.7.1",
+    "react-router": "^4.2.0"
   }
 }
