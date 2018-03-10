@@ -5,13 +5,18 @@ import ChannelList from "./channelList"
 class ChannelSection extends React.Component {
     render() {
         return(
-            <div>
-                <ChannelForm
+            <div className="support panel panel-primary">
+            <div className="panel-heading">
+            <strong>Channels</strong>
+            </div>
+             <div className="panel-body channels">
+                <ChannelList
                 {...this.props}
             />
-                 <ChannelList
+                 <ChannelForm
                 {...this.props}
             />
+            </div>
             </div>
         )
     }

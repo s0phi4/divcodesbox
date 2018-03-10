@@ -13,7 +13,7 @@ class App extends React.Component {
         let {channels} = this.state;
         channels.push({id: channels, length, name});
         this.setState({channels});
-       // TODO: Sendto server
+        // TODO: Sendto server
     }
 
     setChannel(activeChannel) {
@@ -23,11 +23,15 @@ class App extends React.Component {
 
     render(){
         return(
+            <div className="app">
+            <div className="nav">
             <ChannelSection
-                channels={this.state.channels}
-                addChannel={this.addChannel.bind(this)}
-                setChannel={this.setChannel.bind(this)}
+            {...this.state}
+            addChannel={this.addChannel.bind(this)}
+            setChannel={this.setChannel.bind(this)}
             />
+            </div>
+            </div>
         )
     }
 }
